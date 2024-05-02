@@ -34,3 +34,14 @@ img {
   margin-top: 5px;
   color: rgb(167, 117, 240);
 }
+.offer-letter {
+  margin-top: 0.5em;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  color: rgb(255, 252, 255);
+  font-size: 1.5em;
+}
+.Career-details {
+  margin-top: 1em;
+  color: rgb(184, 155, 221);
+}
