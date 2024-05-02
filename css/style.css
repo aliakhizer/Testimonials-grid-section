@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  background: wheat;
+  background-color: antiquewhite;
+}
+.card {
+  border: 1px solid black;
 }
