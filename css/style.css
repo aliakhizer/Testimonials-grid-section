@@ -6,12 +6,21 @@
 body {
   background-color: antiquewhite;
 }
+h1,
+h2 {
+  margin: 0;
+}
 .card {
   border: 1px solid black;
-  padding: 1em 1.5em;
+  padding: 1.5em 2em;
   background-color: rgb(115, 63, 199);
+}
+img {
+  border-radius: 50%;
+  border: 3px solid rgb(167, 117, 242);
 }
 .flex {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
