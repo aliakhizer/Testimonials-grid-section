@@ -8,4 +8,10 @@ body {
 }
 .card {
   border: 1px solid black;
+  padding: 1em 1.5em;
+  background-color: rgb(115, 63, 199);
+}
+.flex {
+  display: flex;
+  gap: 1rem;
 }
