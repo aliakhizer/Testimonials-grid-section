@@ -1,6 +1,6 @@
 :root {
   --primary-color: #7126c9;
-  --primary-blossom: rgb(184, 155, 221); 
+  --primary-blossom: rgb(184, 155, 221);
 
   --secondary-color: #4b576a;
 
@@ -22,7 +22,7 @@ h1,
 h2 {
   margin: 0;
 }
-.card {
+.testimonial-card {
   padding: 1.5em 2em 2.5em;
   background-color: rgb(115, 63, 199);
   border-radius: 0.5em;
@@ -34,37 +34,37 @@ img {
   max-width: 100%;
   display: block;
 }
-.container {
+.graduate-testimonials {
   padding: 4em 2em;
 }
-.flex {
+.profile-section {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.name {
+.profile-name {
   color: var(--tertiary-color);
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
 }
-.position {
+.profile-position {
   margin-top: 5px;
   color: var(--tertiary-color);
 }
-.offer-letter {
+.testimonial-text {
   margin-top: 0.5em;
 
   font-weight: 600;
   color: var(--tertiary-color);
   font-size: 1.5em;
 }
-.Career-details {
+.testimonial-quote {
   margin-top: 1em;
-  color: var(--primary-blossom);;
+  color: var(--primary-blossom);
 }
 @media (min-width: 768px) {
-  .container {
+  .graduate-testimonials {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);
