@@ -1,10 +1,21 @@
+:root {
+  --primary-color: #7126c9;
+  --primary-blossom: rgb(184, 155, 221); 
+
+  --secondary-color: #4b576a;
+
+  --turkish-color: rgb(26, 33, 47);
+
+  --tertiary-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(237, 242, 248);
+  background-color: var(--tertiary-color);
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 h1,
@@ -19,7 +30,9 @@ h2 {
 }
 img {
   border-radius: 50%;
-  border: 3px solid rgb(167, 117, 242);
+  border: 3px solid var(--primary-color);
+  max-width: 100%;
+  display: block;
 }
 .container {
   padding: 4em 2em;
@@ -31,24 +44,24 @@ img {
 }
 
 .name {
-  color: rgb(255, 248, 255);
+  color: var(--tertiary-color);
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
 }
 .position {
   margin-top: 5px;
-  color: rgb(167, 117, 240);
+  color: var(--tertiary-color);
 }
 .offer-letter {
   margin-top: 0.5em;
 
   font-weight: 600;
-  color: rgb(255, 252, 255);
+  color: var(--tertiary-color);
   font-size: 1.5em;
 }
 .Career-details {
   margin-top: 1em;
-  color: rgb(184, 155, 221);
+  color: var(--primary-blossom);;
 }
 @media (min-width: 768px) {
   .container {
